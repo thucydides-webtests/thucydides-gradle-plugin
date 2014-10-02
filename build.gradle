@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'idea'
+
+repositories {
+    jcenter()
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+
+    compile 'net.thucydides:thucydides-core:0.9.273'
+
+    testCompile "junit:junit:4.11"
+}
+

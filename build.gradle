@@ -1,6 +1,6 @@
 
 group = 'net.thucydides.plugins.gradle'
-version = '0.9.275'
+version = '0.9.273'
 
 buildscript {
     repositories {
